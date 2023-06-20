@@ -1,0 +1,137 @@
+body {
+  font-family: "Montserrat";
+    background-color: #f7f7f7;
+    margin: 10px;
+}
+/* Header */
+.cover-container{
+  background-color: grey;
+}
+.fade-in {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+}
+to {
+  opacity: : 1;
+}
+}
+
+.clueless{
+  position:relative;
+}
+
+.img-fluid{
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#exp{
+  position:absolute;
+  left: 49%;
+  top: 20%;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat";
+
+  font-weight: bolder;
+}
+.login-container{
+margin-left: .1rem;
+}
+input {
+  height: 25px;
+
+}
+
+input {
+  margin-left: -.5rem;
+  margin-right: 1rem;
+}
+input.password{
+  width: 9.5rem;
+
+  font-family: "Times New Roman";
+  margin-top: .8rem;
+
+}
+input.email {
+  margin-top: .8rem;
+  padding: 1rem .6rem;
+  width: 12rem;
+  font-family: "Times New Roman";
+}
+
+input::placeholder {
+  font-size: 14px;
+}
+
+button {
+  height: 35px;
+  font-size: "Times New Roman";
+  color: black;
+  margin-top: .92rem;
+}
+
+/* middle */
+
+.row {
+  border-radius: 8px;
+  margin: 5rem 2rem;
+  justify-content: center;
+}
+.card {
+    border-style: solid;
+    margin-bottom: 3.4rem;
+}
+.row .btn {
+  margin-left: 2.3rem;
+}
+
+/* Footer */
+footer {
+  margin-top:-3.1rem;
+}
+.nav-link {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 18px;
+}
+.option-foot {
+  margin-left: -5.4rem;
+
+}
+.nav-link:hover {
+  color: white;
+
+}
+.cover-container1{
+
+  background-color: grey;
+}
+p {
+  text-align: center;
+  font-size: 14.4px;
+  font-family: "Times New Roman";
+}
+a {
+  margin-top: .4rem;
+}
+
+/******************************** Login *************************************/
+
+.loginh1 {
+  margin-left: -7.5rem;
+
+}
